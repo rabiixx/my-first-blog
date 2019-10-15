@@ -25,7 +25,7 @@ SECRET_KEY = 'jfr!x$xce*wpf!l5&)^2_s11!8q&^@f-y)kb8e9@_kk&407a%b'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['rabiixx.pythonanywhere.com']
 
 
 # Application definition
@@ -123,3 +123,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
+MEDIA_URL = '/media/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
